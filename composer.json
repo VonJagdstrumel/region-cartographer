@@ -1,0 +1,35 @@
+{
+    "name": "vonjagdstrumel/region-cartographer",
+    "description": "",
+    "version": "0.1.0",
+    "homepage": "http://www.behindtheshell.fr/",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Steve Forget",
+            "homepage": "http://www.behindtheshell.fr/",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/VonJagdstrumel/libutil.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "vonjagdstrumel/libutil": "dev-master"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "RegionCartographer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RegionCartographer\\Tests\\": "tests/"
+        }
+    }
+}
